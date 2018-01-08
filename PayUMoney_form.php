@@ -1,12 +1,11 @@
 <?php
-// Merchant key here as provided by Payu
-$MERCHANT_KEY = "JBZaLc";
 
-// Merchant Salt as provided by Payu
-$SALT = "GQs7yium";
+$MERCHANT_KEY = "";
+$SALT = "";
+// Merchant Key and Salt as provided by Payu.
 
-// End point - change to https://secure.payu.in for LIVE mode
-$PAYU_BASE_URL = "https://test.payu.in";
+$PAYU_BASE_URL = "https://sandboxsecure.payu.in";		// For Sandbox Mode
+//$PAYU_BASE_URL = "https://secure.payu.in";			// For Production Mode
 
 $action = '';
 
